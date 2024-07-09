@@ -2,6 +2,7 @@ import Image from "next/image";
 import { AnimatedTooltip } from "../ui/animated-tooltip";
 import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 import { Button } from "../ui/button";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../ui/carousel";
 import Sparkles from "../ui/sparkles";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "../ui/card";
 import { Label } from "../ui/label";
@@ -61,6 +62,21 @@ const companies = [
         name: "Shopee",
         designation: "Cliente",
         image: "/companies/shopee.png"
+    }
+]
+
+const owners = [
+    {
+        id: 1,
+        image: "/banner.png"
+    },
+    {
+        id: 2,
+        image: "/banner.png"
+    },
+    {
+        id: 3,
+        image: "/banner.png"
     }
 ]
 
@@ -130,6 +146,17 @@ export default function Hero() {
               <Button className="w-full">Receber mais informações</Button>
             </CardFooter>
           </Card>
+        </div>
+        <div className="w-full items-center justify-center">
+            <Carousel>
+                <CarouselContent>
+                    {owners.map((item) => (
+                        <CarouselItem>
+                            <Image src={item.image} alt={item.id} className="" />
+                        </CarouselItem>
+                    ))}
+                </CarouselContent>
+            </Carousel>
         </div>
       </section>
     );
