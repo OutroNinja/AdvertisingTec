@@ -106,7 +106,7 @@ export default function Hero() {
                     className="mx-auto aspect-video overflow-hidde rounded-xl object-cover object-center sm:w-full"
                 />
             </div>
-            <div className="py-24 items-center justify-center container flex w-full">
+            <div className="py-24 items-center flex flex-col w-full gap-8">
                 <h1>Serviços</h1>
                 <div>
                     <Card>
@@ -114,15 +114,15 @@ export default function Hero() {
                             <CardTitle>Marketing</CardTitle>
                         </CardHeader>
                         <CardContent>
-                            &#x2022; Gestão e monitoramento de redes sociais
-                            &#x2022; Design Gráfico 
-                            &#x2022; Desenvolvimento de Sites, Blogs e Aplicativos
-                            &#x2022; SEO
-                            &#x2022; Ibound Marketing
-                            &#x2022; Marketing de Conteúdo 
-                            &#x2022; E-Mail Marketing
-                            &#x2022; Tráfico Pago
-                            &#x2022; Desenvolvimento de profissionais da área
+                            &#x2022; Gestão e monitoramento de redes sociais <br />
+                            &#x2022; Design Gráfico <br />
+                            &#x2022; Desenvolvimento de Sites, Blogs e Aplicativos <br />
+                            &#x2022; SEO <br />
+                            &#x2022; Ibound Marketing <br />
+                            &#x2022; Marketing de Conteúdo <br />
+                            &#x2022; E-Mail Marketing <br />
+                            &#x2022; Tráfico Pago <br />
+                            &#x2022; Desenvolvimento de profissionais da área <br />
                         </CardContent>
                     </Card>
                 </div>
