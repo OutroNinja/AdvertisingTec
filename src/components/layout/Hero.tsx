@@ -136,35 +136,125 @@ export default function Hero() {
 }
 
 const testimonials = [
-    {
-      quote:
-        "A AdvertisingTec transformou nossa presença online! As campanhas são incrivelmente eficazes e o retorno sobre o investimento foi imediato.",
-      name: "Maria Silva",
-      title: "CEO da StartupTech",
-    },
-    {
-      quote:
-        "O serviço da AdvertisingTec é excepcional. Eles entendem exatamente o que precisamos e sempre entregam resultados acima das expectativas.",
-      name: "João Souza",
-      title: "Diretor de Marketing da Foodies",
-    },
-    {
-      quote: 
-        "Nunca imaginei que poderíamos alcançar tantas pessoas com nossas campanhas. A AdvertisingTec é, sem dúvida, a melhor em divulgações.",
-      name: "Ana Pereira",
-      title: "Gerente de Vendas da EcoFashion",
-    },
-    {
-      quote:
-        "Graças à AdvertisingTec, nossa marca ganhou uma visibilidade que nunca tivemos antes. Recomendo seus serviços a todos que conheço.",
-      name: "Carlos Mendes",
-      title: "Fundador da HealthPlus",
-    },
-    {
-      quote:
-        "A AdvertisingTec nos ajudou a criar campanhas que realmente ressoam com nosso público-alvo. A equipe é fantástica e muito profissional.",
-      name: "Luísa Costa",
-      title: "CMO da FitLife",
-    },
-  ];
+  {
+    quote:
+      "A AdvertisingTec transformou nossa presença online! As campanhas são incrivelmente eficazes e o retorno sobre o investimento foi imediato.",
+    name: "Maria Silva",
+    title: "CEO da StartupTech",
+  },
+  {
+    quote:
+      "O serviço da AdvertisingTec é excepcional. Eles entendem exatamente o que precisamos e sempre entregam resultados acima das expectativas.",
+    name: "João Souza",
+    title: "Diretor de Marketing da Foodies",
+  },
+  {
+    quote: 
+      "Nunca imaginei que poderíamos alcançar tantas pessoas com nossas campanhas. A AdvertisingTec é, sem dúvida, a melhor em divulgações.",
+    name: "Ana Pereira",
+    title: "Gerente de Vendas da EcoFashion",
+  },
+  {
+    quote:
+      "Graças à AdvertisingTec, nossa marca ganhou uma visibilidade que nunca tivemos antes. Recomendo seus serviços a todos que conheço.",
+    name: "Carlos Mendes",
+    title: "Fundador da HealthPlus",
+  },
+  {
+    quote:
+      "A AdvertisingTec nos ajudou a criar campanhas que realmente ressoam com nosso público-alvo. A equipe é fantástica e muito profissional.",
+    name: "Luísa Costa",
+    title: "CMO da FitLife",
+  },
+  {
+    quote:
+      "Estamos muito satisfeitos com os resultados obtidos com a AdvertisingTec. Profissionalismo e eficiência são marcas registradas dessa equipe.",
+    name: "Rodrigo Oliveira",
+    title: "CEO da TechGadgets",
+  },
+  {
+    quote:
+      "O impacto das campanhas da AdvertisingTec foi além das nossas expectativas. Eles realmente entendem o mercado e como se destacar nele.",
+    name: "Patrícia Santos",
+    title: "Diretora de Marketing da HomeDecor",
+  },
+  {
+    quote:
+      "Recomendo a AdvertisingTec para quem busca resultados reais e tangíveis. Eles sabem como trazer visibilidade e crescimento para sua marca.",
+    name: "Felipe Almeida",
+    title: "Gerente de Vendas da EcoTech",
+  },
+  {
+    quote:
+      "A AdvertisingTec é nossa parceira estratégica em todas as nossas iniciativas de marketing. Sempre entregam com qualidade e pontualidade.",
+    name: "Fernanda Lima",
+    title: "CMO da GreenEnergy",
+  },
+  {
+    quote:
+      "Estamos muito satisfeitos com a AdvertisingTec. Eles não só entendem nossas necessidades como também superam nossas expectativas a cada campanha.",
+    name: "Rafael Santos",
+    title: "Diretor de Marketing da SmartSolutions",
+  },
+  {
+    quote:
+      "A AdvertisingTec não só nos ajudou a alcançar novos clientes, mas também a fortalecer nossa imagem de marca. Excelente trabalho!",
+    name: "Camila Barbosa",
+    title: "CEO da TechSolutions",
+  },
+  {
+    quote:
+      "Nossas vendas aumentaram significativamente após iniciarmos a parceria com a AdvertisingTec. Profissionalismo e resultados visíveis.",
+    name: "Daniel Oliveira",
+    title: "Diretor Comercial da BioHealth",
+  },
+  {
+    quote:
+      "A AdvertisingTec é fundamental para o crescimento contínuo de nossa presença digital. Sem eles, não teríamos alcançado tanto sucesso.",
+    name: "Mariana Silva",
+    title: "CMO da HealthTech",
+  },
+  {
+    quote:
+      "Desde que começamos a trabalhar com a AdvertisingTec, nossa marca tem sido reconhecida e admirada por um público cada vez maior.",
+    name: "Pedro Santos",
+    title: "Gerente de Marketing da CleanFood",
+  },
+  {
+    quote:
+      "A AdvertisingTec nos ajuda a manter nossa marca sempre à frente no mercado. Suporte excepcional e resultados consistentes.",
+    name: "Carolina Almeida",
+    title: "Diretora de Vendas da EcoTech",
+  },
+  {
+    quote:
+      "Nossa parceria com a AdvertisingTec tem sido essencial para nossa estratégia de crescimento. Recomendo sem hesitação!",
+    name: "Roberto Lima",
+    title: "CEO da GreenTech",
+  },
+  {
+    quote:
+      "A AdvertisingTec entende nosso mercado como ninguém. Suas campanhas são precisas e altamente eficazes.",
+    name: "Aline Costa",
+    title: "Diretora de Marketing da EcoToys",
+  },
+  {
+    quote:
+      "Os resultados falam por si. A AdvertisingTec trouxe um aumento significativo em nossa base de clientes e na receita.",
+    name: "Gustavo Santos",
+    title: "CMO da TechInnovations",
+  },
+  {
+    quote:
+      "Trabalhar com a AdvertisingTec é garantia de resultados positivos. Eles realmente sabem como posicionar uma marca no mercado.",
+    name: "Juliana Oliveira",
+    title: "Gerente de Marketing da NaturezaViva",
+  },
+  {
+    quote:
+      "A AdvertisingTec é uma parceira estratégica crucial para o sucesso de nossas campanhas de marketing digital.",
+    name: "Ricardo Lima",
+    title: "Diretor Comercial da GoDigital",
+  },
+];
   
