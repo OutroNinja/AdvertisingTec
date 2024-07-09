@@ -34,13 +34,13 @@ export default function Header() {
             <nav className="flex items-center gap-6">
               <Link
                 href="#"
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition"
+                className="text-white text-sm font-medium hover:text-black transition"
                 prefetch={false}
               >
                 Atendimento ao Cliente
               </Link>
             </nav>
-            <Button className="gap-2 text-white">
+            <Button className="gap-2 text-black">
               Nos Contrate
               <MessageCircle />
             </Button>
