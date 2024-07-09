@@ -30,7 +30,7 @@ export default function Footer() {
                     <div className="grid gap-2">
                         <h2 className="text-sm font-semibold">Outros</h2>
                         <Link href="#" className="text-sm hover:underline" prefetch={false}> 
-                            Se torne um parceiro
+                            Torne-se um parceiro
                         </Link>
                         <Link href="#" className="text-sm hover:underline" prefetch={false}> 
                             Termos e Condições
