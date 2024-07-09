@@ -94,7 +94,7 @@ export default function Hero() {
             <InfiniteMovingCards
                 items={testimonials}
                 direction="right"
-                speed="normal"
+                speed="slow"
             />
         </div>
         <div className="container mx-auto py-12 md:py-24 grid md:grid-cols-2 gap-8 px-4 md:px-6">
