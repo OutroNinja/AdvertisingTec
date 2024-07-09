@@ -17,7 +17,7 @@ import { cn } from "@/lib/utils";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="fixed backdrop-blur-md z-50 top-0 left-0 right-0 bg-background/75 border-b">
+    <header className="fixed backdrop-blur-md z-50 top-0 left-0 right-0 bg-[#c4c4c4]/75 border-b">
       <div className="flex items-center justify-between px-6">
         <div className="flex items-center gap-4 py-5">
           <Link
