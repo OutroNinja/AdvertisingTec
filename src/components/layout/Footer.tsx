@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="bg-[#c4c4c4] py-12 text-muted-foreground border-t">
+        <footer className="bg-[#c4c4c4] py-12 text-[#000] border-t">
             <div className="container flex flex-col items-start justify-between gap-8 md:flex-row">
                 <div className="flex flex-col items-start gap-4">
                     <Link href="#" className="flex items-center gap-2" prefetch={false}>
