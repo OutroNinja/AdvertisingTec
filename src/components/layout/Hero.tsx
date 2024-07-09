@@ -63,7 +63,7 @@ const companies = [
 
 export default function Hero() {
     return (
-      <section className="w-full py-12 md:py-24 lg:py-24 items-center justify-center dark:bg-dot-white/[0.05] bg-dot-black/[0.05]">
+      <section className="w-full py-24 md:py-32 lg:py-40 items-center justify-center dark:bg-dot-white/[0.05] bg-dot-black/[0.05]">
         <div className="container grid items-center gap-6 pt-12 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">

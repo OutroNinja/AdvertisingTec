@@ -26,6 +26,7 @@ export default function Header() {
             prefetch={false}
           >
             <Image src="/logo.png" alt="Logo" width={30} height={30} />
+            <span className="font-semibold">Advertising Tec</span>
           </Link>
         </div>
         <div className="items-center gap-4">
