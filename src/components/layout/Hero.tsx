@@ -111,7 +111,7 @@ export default function Hero() {
                 <div>
                     <Card>
                         <CardHeader>
-                            <CardTitle>Marketing</CardTitle>
+                            <CardTitle className="font-bold text-4xl">Marketing</CardTitle>
                         </CardHeader>
                         <CardContent>
                             &#x2022; Gestão e monitoramento de redes sociais <br />
