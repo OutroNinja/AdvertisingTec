@@ -107,33 +107,25 @@ export default function Hero() {
                 />
             </div>
             <div className="py-24 items-center justify-center container flex w-full">
-                <Carousel className="w-full max-w-xs">
-                    <CarouselContent>
-                        <CarouselItem>
-                            <Card>
-                                <CardContent className="flex flex-row items-start w-full max-w-7xl">
-                                    <div className="p-6 space-y-4 flex-1">
-                                        <div>
-                                            <h3 className="text-2xl font-bold">Gestão de monitoramento de redes sociais</h3>
-                                            <p className="text-muted-foreground">
-                                                Explore the beauty of nature through our curated collection of breathtaking landscape photography.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <Image
-                                        src="/gestao_socials.png"
-                                        width={1024}
-                                        height={500}
-                                        alt="Gestões Sociais"
-                                        className="h-full max-h-[400px] object-cover"
-                                    />
-                                </CardContent>
-                            </Card>
-                        </CarouselItem>
-                    </CarouselContent>
-                    <CarouselPrevious />
-                    <CarouselNext />
-                </Carousel>
+                <h1>Serviços</h1>
+                <div>
+                    <Card>
+                        <CardHeader>
+                            <CardTitle>Marketing</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            &#x2022; Gestão e monitoramento de redes sociais
+                            &#x2022; Design Gráfico 
+                            &#x2022; Desenvolvimento de Sites, Blogs e Aplicativos
+                            &#x2022; SEO
+                            &#x2022; Ibound Marketing
+                            &#x2022; Marketing de Conteúdo 
+                            &#x2022; E-Mail Marketing
+                            &#x2022; Tráfico Pago
+                            &#x2022; Desenvolvimento de profissionais da área
+                        </CardContent>
+                    </Card>
+                </div>
             </div>
             <div className="py-24">
                 
