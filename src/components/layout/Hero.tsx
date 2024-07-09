@@ -106,7 +106,7 @@ export default function Hero() {
                     className="mx-auto aspect-video overflow-hidde rounded-xl object-cover object-center sm:w-full"
                 />
             </div>
-            <div className="py-24">
+            <div className="py-24 items-center justify center w-full">
                 <Carousel className="w-full max-w-xs">
                     <CarouselContent>
                         <CarouselItem>
@@ -120,7 +120,7 @@ export default function Hero() {
                                             </p>
                                         </div>
                                     </div>
-                                    <img
+                                    <Image
                                         src="/placeholder.svg"
                                         width={400}
                                         height={300}
@@ -302,3 +302,4 @@ const testimonials = [
         title: "Diretor Comercial da GoDigital",
     },
 ];
+
