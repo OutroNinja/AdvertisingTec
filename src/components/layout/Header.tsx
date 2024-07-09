@@ -40,8 +40,8 @@ export default function Header() {
                 Atendimento ao Cliente
               </Link>
             </nav>
-            <Button className="gap-2">
-              Nós Contrate
+            <Button className="gap-2 text-white">
+              Nos Contrate
               <MessageCircle />
             </Button>
           </div>
