@@ -44,7 +44,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          "flex min-h-screen flex-col bg-background antialiased",
+          "flex min-h-screen flex-col bg-[#192255] antialiased",
           fontMono.variable,
           Satoshi.className,
         )}
