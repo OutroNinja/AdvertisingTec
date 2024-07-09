@@ -3,6 +3,9 @@ import { AnimatedTooltip } from "../ui/animated-tooltip";
 import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 import { Button } from "../ui/button";
 import Sparkles from "../ui/sparkles";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "../ui/card";
+import { Label } from "../ui/label";
+import { Input } from "../ui/input";
 
 const companies = [
     {
@@ -93,6 +96,40 @@ export default function Hero() {
                 direction="right"
                 speed="normal"
             />
+        </div>
+        <div className="container mx-auto py-12 md:py-24 grid md:grid-cols-2 gap-8 px-4 md:px-6">
+          <div className="space-y-4">
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Dar o próximo passo leva menos de um minuto</h2>
+            <p className="text-muted-foreground md:text-xl">
+              Preencha o formulário na direita para receber mais detalhes sobre nossa ofertas.
+            </p>
+          </div>
+          <Card>
+            <CardHeader>
+              <CardTitle className="text-2xl md:text-3xl">Receba mais informações</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="grid gap-2">
+                <Label htmlFor="name">Nome</Label>
+                <Input id="name" placeholder="Qual seu nome?" />
+              </div>
+              <div className="grid gap-2">
+                <Label htmlFor="name">Email</Label>
+                <Input id="email" type="email" placeholder="E-Mail corporativo" />
+              </div>
+              <div className="grid gap-2">
+                <Label htmlFor="name">Telefone</Label>
+                <Input id="phone" type="tel" placeholder="Seu telefone" />
+              </div>
+              <div className="grid gap-2">
+                <Label htmlFor="name">CNPJ</Label>
+                <Input id="cnpj" placeholder="Qual CNPJ da sua empresa?" />
+              </div>
+            </CardContent>
+            <CardFooter>
+              <Button className="w-full">Receber mais informações</Button>
+            </CardFooter>
+          </Card>
         </div>
       </section>
     );
