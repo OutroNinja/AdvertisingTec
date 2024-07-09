@@ -176,17 +176,6 @@ export default function Hero() {
                     </CardFooter>
                 </Card>
             </div>
-            <div className="w-full items-center justify-center">
-                <Carousel>
-                    <CarouselContent>
-                        {owners.map((item) => (
-                            <CarouselItem>
-                                <Image src={item.image} alt={item.id} className="" />
-                            </CarouselItem>
-                        ))}
-                    </CarouselContent>
-                </Carousel>
-            </div>
         </section>
     );
 }
