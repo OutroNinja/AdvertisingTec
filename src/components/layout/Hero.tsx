@@ -121,7 +121,7 @@ export default function Hero() {
                                         </div>
                                     </div>
                                     <Image
-                                        src="/placeholder.svg"
+                                        src="/gestao_socials.png"
                                         width={400}
                                         height={300}
                                         alt="Landscape"
@@ -134,6 +134,9 @@ export default function Hero() {
                     <CarouselPrevious />
                     <CarouselNext />
                 </Carousel>
+            </div>
+            <div className="">
+
             </div>
             <div className="h-[40rem] rounded-md flex flex-col antialiased relative justify-center items-center overflow-hidden">
                 <InfiniteMovingCards
