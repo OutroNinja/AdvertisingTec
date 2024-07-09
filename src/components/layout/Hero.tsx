@@ -122,9 +122,9 @@ export default function Hero() {
                                     </div>
                                     <Image
                                         src="/gestao_socials.png"
-                                        width={400}
-                                        height={300}
-                                        alt="Landscape"
+                                        width={1024}
+                                        height={500}
+                                        alt="Gestões Sociais"
                                         className="h-full max-h-[400px] object-cover"
                                     />
                                 </CardContent>
@@ -135,8 +135,8 @@ export default function Hero() {
                     <CarouselNext />
                 </Carousel>
             </div>
-            <div className="">
-
+            <div className="py-24">
+                
             </div>
             <div className="h-[40rem] rounded-md flex flex-col antialiased relative justify-center items-center overflow-hidden">
                 <InfiniteMovingCards
