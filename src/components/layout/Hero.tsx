@@ -125,6 +125,38 @@ export default function Hero() {
                             &#x2022; Desenvolvimento de profissionais da área <br />
                         </CardContent>
                     </Card>
+                    <Card>
+                        <CardHeader>
+                            <CardTitle>Marketing</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            &#x2022; Gestão e monitoramento de redes sociais <br />
+                            &#x2022; Design Gráfico <br />
+                            &#x2022; Desenvolvimento de Sites, Blogs e Aplicativos <br />
+                            &#x2022; SEO <br />
+                            &#x2022; Ibound Marketing <br />
+                            &#x2022; Marketing de Conteúdo <br />
+                            &#x2022; E-Mail Marketing <br />
+                            &#x2022; Tráfico Pago <br />
+                            &#x2022; Desenvolvimento de profissionais da área <br />
+                        </CardContent>
+                    </Card>
+                    <Card>
+                        <CardHeader>
+                            <CardTitle>Marketing</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            &#x2022; Gestão e monitoramento de redes sociais <br />
+                            &#x2022; Design Gráfico <br />
+                            &#x2022; Desenvolvimento de Sites, Blogs e Aplicativos <br />
+                            &#x2022; SEO <br />
+                            &#x2022; Ibound Marketing <br />
+                            &#x2022; Marketing de Conteúdo <br />
+                            &#x2022; E-Mail Marketing <br />
+                            &#x2022; Tráfico Pago <br />
+                            &#x2022; Desenvolvimento de profissionais da área <br />
+                        </CardContent>
+                    </Card>
                 </div>
             </div>
             <div className="py-24">
