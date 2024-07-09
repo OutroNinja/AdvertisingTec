@@ -107,11 +107,11 @@ export default function Hero() {
                 />
             </div>
             <div className="py-24 items-center flex flex-col w-full gap-8">
-                <h1>Serviços</h1>
+                <h1 className="font-bold text-4xl">Serviços</h1>
                 <div>
                     <Card>
                         <CardHeader>
-                            <CardTitle className="font-bold text-4xl">Marketing</CardTitle>
+                            <CardTitle>Marketing</CardTitle>
                         </CardHeader>
                         <CardContent>
                             &#x2022; Gestão e monitoramento de redes sociais <br />
