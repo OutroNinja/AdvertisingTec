@@ -111,7 +111,7 @@ export default function Hero() {
                     <CarouselContent>
                         <CarouselItem>
                             <Card>
-                                <CardContent className="flex flex-row items-start w-full max-w-2xl">
+                                <CardContent className="flex flex-row items-start w-full max-w-7xl">
                                     <div className="p-6 space-y-4 flex-1">
                                         <div>
                                             <h3 className="text-2xl font-bold">Gestão de monitoramento de redes sociais</h3>
