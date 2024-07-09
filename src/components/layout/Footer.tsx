@@ -12,7 +12,7 @@ export default function Footer() {
                     <p className="max-w-[300px] text-sm leading-relaxed">
                     Oferecer soluções integradas de terceirização e fornecimento de mão de obra, com a qualidade que garante ao cliente a segurança necessária para cuidar do seu negócio, seu patrimônio e sua família.
                     </p>
-                    <div className="text-sm">Made with ❤️ by OutroNinja</div>
+                    <div className="text-sm">Made with ❤️ by Fábio</div>
                 </div>
                 <div className="grid grid-cols-2 gap-8 md:grid-cols-2">
                     <div className="grid gap-2">
