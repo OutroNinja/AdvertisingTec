@@ -106,61 +106,40 @@ export default function Hero() {
                     className="mx-auto aspect-video overflow-hidde rounded-xl object-cover object-center sm:w-full"
                 />
             </div>
-            <div className="py-24 grid grid-cols-1 md:grid-cols-3 gap-8">
-                <h1 className="font-bold text-4xl">Serviços</h1>
-                <div>
-                    <Card>
-                        <CardHeader>
-                            <CardTitle>Marketing</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                            &#x2022; Gestão e monitoramento de redes sociais <br />
-                            &#x2022; Design Gráfico <br />
-                            &#x2022; Desenvolvimento de Sites, Blogs e Aplicativos <br />
-                            &#x2022; SEO <br />
-                            &#x2022; Ibound Marketing <br />
-                            &#x2022; Marketing de Conteúdo <br />
-                            &#x2022; E-Mail Marketing <br />
-                            &#x2022; Tráfico Pago <br />
-                            &#x2022; Desenvolvimento de profissionais da área <br />
+            <div className="flex flex-col items-center gap-8 p-4 md:p-8 py-24">
+                <div className="text-center">
+                    <h1 className="text-3xl font-bold">Welcome to Our App</h1>
+                    <p className="text-muted-foreground">Discover the best features</p>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <Card className="w-full max-w-md">
+                        <CardContent className="p-6 space-y-4">
+                            <h2 className="text-2xl font-semibold">Get Started</h2>
+                            <p className="text-muted-foreground">Sign up now to unlock all the amazing features of our app.</p>
+                            <div className="flex gap-4">
+                                <Button>Sign Up</Button>
+                                <Button variant="secondary">Learn More</Button>
+                            </div>
                         </CardContent>
                     </Card>
-                    <Card>
-                        <CardHeader>
-                            <CardTitle>Marketing</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                            &#x2022; Gestão e monitoramento de redes sociais <br />
-                            &#x2022; Design Gráfico <br />
-                            &#x2022; Desenvolvimento de Sites, Blogs e Aplicativos <br />
-                            &#x2022; SEO <br />
-                            &#x2022; Ibound Marketing <br />
-                            &#x2022; Marketing de Conteúdo <br />
-                            &#x2022; E-Mail Marketing <br />
-                            &#x2022; Tráfico Pago <br />
-                            &#x2022; Desenvolvimento de profissionais da área <br />
+                    <Card className="w-full max-w-md">
+                        <CardContent className="p-6 space-y-4">
+                            <h2 className="text-2xl font-semibold">Feature 1</h2>
+                            <p className="text-muted-foreground">Discover the power of our first amazing feature.</p>
+                            <Button>Learn More</Button>
                         </CardContent>
                     </Card>
-                    <Card>
-                        <CardHeader>
-                            <CardTitle>Marketing</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                            &#x2022; Gestão e monitoramento de redes sociais <br />
-                            &#x2022; Design Gráfico <br />
-                            &#x2022; Desenvolvimento de Sites, Blogs e Aplicativos <br />
-                            &#x2022; SEO <br />
-                            &#x2022; Ibound Marketing <br />
-                            &#x2022; Marketing de Conteúdo <br />
-                            &#x2022; E-Mail Marketing <br />
-                            &#x2022; Tráfico Pago <br />
-                            &#x2022; Desenvolvimento de profissionais da área <br />
+                    <Card className="w-full max-w-md">
+                        <CardContent className="p-6 space-y-4">
+                            <h2 className="text-2xl font-semibold">Feature 2</h2>
+                            <p className="text-muted-foreground">Explore our second incredible feature.</p>
+                            <Button>Learn More</Button>
                         </CardContent>
                     </Card>
                 </div>
             </div>
             <div className="py-24">
-                
+
             </div>
             <div className="h-[40rem] rounded-md flex flex-col antialiased relative justify-center items-center overflow-hidden">
                 <InfiniteMovingCards
