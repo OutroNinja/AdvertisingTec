@@ -106,7 +106,7 @@ export default function Hero() {
                     className="mx-auto aspect-video overflow-hidde rounded-xl object-cover object-center sm:w-full"
                 />
             </div>
-            <div className="py-24 items-center flex flex-col w-full gap-8">
+            <div className="py-24 grid grid-cols-1 md:grid-cols-3 gap-8">
                 <h1 className="font-bold text-4xl">Serviços</h1>
                 <div>
                     <Card>
