@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   creator: "OutroNinja",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo.png",
   }
 };
 
