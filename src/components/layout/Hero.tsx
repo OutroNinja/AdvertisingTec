@@ -79,9 +79,9 @@ const companies = [
 
 const team = [
   {
-    name: "Gaby",
+    name: "Nome",
     image: "/team/gaby.png",
-    tag: "Gerente de Marketing",
+    tag: "???",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec",
   },
