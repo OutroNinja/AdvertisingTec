@@ -185,17 +185,12 @@ export default function Hero() {
           </Card>
           <Card className="w-full max-w-md">
             <CardContent className="p-6 space-y-4">
-              <h2 className="text-2xl font-semibold">Resultados Prévios</h2>
+              <h2 className="text-2xl font-semibold">Objetivos Previstos</h2>
               <p>
-                &#x2022; Gestão e monitoramento de redes sociais <br />
-                &#x2022; Design Gráfico <br />
-                &#x2022; Desenvolvimento de Sites, Blogs e Aplicativos <br />
-                &#x2022; SEO <br />
-                &#x2022; Ibound Marketing <br />
-                &#x2022; Marketing de Conteúdo <br />
-                &#x2022; E-Mail Marketing <br />
-                &#x2022; Tráfico Pago <br />
-                &#x2022; Desenvolvimento de profissionais da área <br />
+                &#x2022; Aumento significativo da visibilidade e presença digital através de uma gestão eficaz de redes sociais. <br />
+                &#x2022; Melhor posicionamento nos motores de busca, resultando em aumento do tráfego orgânico e potenciais clientes. <br />
+                &#x2022; Aumento do reconhecimento de marca e da autoridade de mercado através de marketing de conteúdo estratégico. <br />
+                &#x2022; Desenvolvimento contínuo e capacitação da equipe de marketing digital para maximizar os resultados e a eficiência das campanhas. <br />
               </p>
             </CardContent>
           </Card>
