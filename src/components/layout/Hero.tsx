@@ -104,7 +104,7 @@ const team = [
     image: "/team/antonio.png",
     tag: "Auxiliar Administrativo",
     description:
-      `"Sou um profissional responsável e dedicado a ajudar a empresa a crescer e dar o meu melhor no que faço."`,
+      `"Sou um profissional responsável e dedicado, ajudo o gerente, auxilio a equipe no faturamento da empresa dando meu melhor no que faço."`,
   },
   {
     name: "Kayque Keven",
