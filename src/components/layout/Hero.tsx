@@ -173,23 +173,19 @@ export default function Hero() {
           </Card>
           <Card className="w-full max-w-md">
             <CardContent className="p-6 space-y-4">
-              <h2 className="text-2xl font-semibold">Marketing</h2>
+              <h2 className="text-2xl font-semibold">Estratégias</h2>
               <p>
-                &#x2022; Gestão e monitoramento de redes sociais <br />
-                &#x2022; Design Gráfico <br />
-                &#x2022; Desenvolvimento de Sites, Blogs e Aplicativos <br />
-                &#x2022; SEO <br />
-                &#x2022; Ibound Marketing <br />
-                &#x2022; Marketing de Conteúdo <br />
-                &#x2022; E-Mail Marketing <br />
-                &#x2022; Tráfico Pago <br />
-                &#x2022; Desenvolvimento de profissionais da área <br />
+                &#x2022; Integração Multicanal para Consistência de Marca. <br />
+                &#x2022; Automação de Marketing e Jornada do Cliente. <br />
+                &#x2022; Análise Preditiva para Personalização de Conteúdo. <br />
+                &#x2022; Marketing de Conteúdo Estratégico em Múltiplos Canais. <br />
+                &#x2022; Desenvolvimento Profissional e Educação Continuada. <br />
               </p>
             </CardContent>
           </Card>
           <Card className="w-full max-w-md">
             <CardContent className="p-6 space-y-4">
-              <h2 className="text-2xl font-semibold">Marketing</h2>
+              <h2 className="text-2xl font-semibold">Resultados Prévios</h2>
               <p>
                 &#x2022; Gestão e monitoramento de redes sociais <br />
                 &#x2022; Design Gráfico <br />
