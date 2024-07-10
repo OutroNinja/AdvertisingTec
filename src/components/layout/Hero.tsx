@@ -226,7 +226,7 @@ export default function Hero() {
         </Carousel>
       </div>
       <div className="h-max py-20 rounded-md flex flex-col antialiased relative justify-center items-center overflow-hidden">
-        <h1 className="font-bold text-4xl">― Avaliações dos Nossos clientes ―</h1>
+        <h1 className="font-bold text-4xl">Avaliações dos Nossos clientes</h1>
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
