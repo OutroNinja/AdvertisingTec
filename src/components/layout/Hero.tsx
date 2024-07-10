@@ -83,7 +83,7 @@ const team = [
     image: "/team/gaby.png",
     tag: "CEO & Advogada",
     description:
-      "Sou uma das CEOs da Advertising Tec e advogada responsável pela empresa.",
+      `"Sou uma das CEOs da Advertising Tec e advogada responsável pela empresa."`,
   },
   {
     name: "Ana Luiza Marques",
