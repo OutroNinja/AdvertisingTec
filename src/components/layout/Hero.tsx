@@ -114,7 +114,7 @@ const team = [
       `"Eu trabalho na área da administração, eu sempre procuro conhecer, entender e ajudar da melhor forma para que o serviço seja feito com a melhor qualidade."`
   },
   {
-    name: "Fábio Henrique da Cunha",
+    name: "Fábio Henrique",
     image: "/team/fabio.png",
     tag: "Engenheiro de Software",
     description:
