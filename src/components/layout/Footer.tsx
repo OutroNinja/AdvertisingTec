@@ -44,6 +44,7 @@ export default function Footer() {
             <div className="container mt-8 flex items-center justify-between border-t pt-4 text-sm">
                 <div>&copy; 2024 AdvertisingTec. All rights reserved.</div>
                 <div />
+                <div>Rua Olimpíadas, 242 Vila Olímpia, São Paulo- SP</div>
             </div>
         </footer>
     )
