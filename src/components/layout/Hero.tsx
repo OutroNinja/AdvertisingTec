@@ -111,7 +111,7 @@ const team = [
     image: "/team/kayque.png",
     tag: "Gerente Administrativo",
     description:
-      `"Eu trabalho na área da administração, eu sempre procuro conhecer, entender e ajudar da melhor forma para que o serviço seja feito com a melhor qualidade."`
+      `"Eu trabalho na área da administração, meu papel é crucial na coordenação e  eficiência operacional garantindo que todas as áreas funcionem, procuro conhecer, entender e ajudar da melhor forma para que o serviço seja feito com a melhor qualidade."`
   },
   {
     name: "Fábio Henrique",
