@@ -81,42 +81,42 @@ const team = [
   {
     name: "Gabriela Vasconcellos",
     image: "/team/gaby.png",
-    tag: "CEO & Advogada",
+    tag: "Advogada",
     description:
       `"Sou uma das CEOs da Advertising Tec e advogada responsável pela empresa."`,
   },
   {
     name: "Ana Luiza Marques",
     image: "/team/ana.png",
-    tag: "CEO & Gerente de Marketing",
+    tag: "Gerente de Marketing",
     description:
       `"Sou umas das CEOs da AdvertisingTec e sou a profissional responsável por liderar e coordenar as estratégias de marketing da nossa empresa com o intuito de promover a imagem institucional e aprimorar os negócios."`,
   },
   {
     name: "Francisco Isac",
     image: "/team/francisco.png",
-    tag: "CEO & Assistente de Marketing Digital",
+    tag: "Assistente de Marketing Digital",
     description:
       `"Sou um assistente de marketing completo! Procuro sempre conhecer,entender e ajudá-lo da melhor forma para que o serviço seja feito com a melhor qualidade."`,
   },
   {
     name: "Antônio Carlos",
     image: "/team/antonio.png",
-    tag: "CEO & Gerente Administrativo",
+    tag: "Gerente Administrativo",
     description:
       `"Sou um profissional responsável e dedicado a ajudar a empresa a crescer e dar o meu melhor no que faço."`,
   },
   {
     name: "Kayque Keven",
     image: "/team/kayque.png",
-    tag: "CEO & Auxiliar Administrativo",
+    tag: "Auxiliar Administrativo",
     description:
       `"Eu trabalho na área da administração, eu sempre procuro conhecer, entender e ajudar da melhor forma para que o serviço seja feito com a melhor qualidade."`
   },
   {
     name: "Fábio Henrique da Cunha",
     image: "/team/fabio.png",
-    tag: "CEO & Engenheiro de Software",
+    tag: "Engenheiro de Software",
     description:
       `"Sou um profissional responsável por projetar, desenvolver e manter softwares e aplicativos dos nossos clientes."`,
   },
