@@ -97,7 +97,7 @@ const team = [
     image: "/team/francisco.png",
     tag: "Assistente de Marketing Digital",
     description:
-      `"Sou um assistente de marketing completo! Procuro sempre conhecer,entender e ajudá-lo da melhor forma para que o serviço seja feito com a melhor qualidade."`,
+      `"Sou um assistente de marketing completo! Analiso o desempenho das campanhas para avaliar sua eficácia e sugerir melhoria. Procuro sempre conhecer,entender e ajudá-lo da melhor forma para que o serviço seja feito com a melhor qualidade."`,
   },
   {
     name: "Antônio Carlos",
