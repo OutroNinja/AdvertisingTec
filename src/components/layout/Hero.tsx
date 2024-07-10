@@ -232,6 +232,18 @@ export default function Hero() {
           <CarouselPrevious />
         </Carousel>
       </div>
+      <div className="w-full flex flex-col items-center gap-8 py-24">
+        <Card>
+          <CardContent>
+          <Image
+          src="/diferenciais.png"
+          alt="Diferenciais"
+          width={600}
+          height={400}
+        />
+          </CardContent>
+        </Card>
+      </div>
       <div className="h-max py-20 rounded-md flex flex-col antialiased relative justify-center items-center overflow-hidden">
         <h1 className="font-bold text-4xl">Avaliações</h1>
         <InfiniteMovingCards
