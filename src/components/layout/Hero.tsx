@@ -79,11 +79,11 @@ const companies = [
 
 const team = [
   {
-    name: "Nome",
+    name: "Gabriela Vasconcellos",
     image: "/team/gaby.png",
-    tag: "???",
+    tag: "CEO & Advogada",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec",
+      "Sou uma das CEOs da Advertising Tec e advogada responsável pela empresa.",
   },
   {
     name: "Ana Luiza Marques",
@@ -102,9 +102,16 @@ const team = [
   {
     name: "Antônio Carlos",
     image: "/team/antonio.png",
-    tag: "Gerente Geral",
+    tag: "Gerente Administrativo",
     description:
       `"Sou um profissional responsável e dedicado a ajudar a empresa a crescer e dar o meu melhor no que faço."`,
+  },
+  {
+    name: "Kayque Keven",
+    image: "/team/kayque.png",
+    tag: "Auxiliar Administrativo",
+    description:
+      `"Eu trabalho na área da administração, eu sempre procuro conhecer, entender e ajudar da melhor forma para que o serviço seja feito com a melhor qualidade."`
   },
   {
     name: "Fábio Henrique da Cunha",
