@@ -102,14 +102,14 @@ const team = [
   {
     name: "Antônio Carlos",
     image: "/team/antonio.png",
-    tag: "Gerente Administrativo",
+    tag: "Auxiliar Administrativo",
     description:
       `"Sou um profissional responsável e dedicado a ajudar a empresa a crescer e dar o meu melhor no que faço."`,
   },
   {
     name: "Kayque Keven",
     image: "/team/kayque.png",
-    tag: "Auxiliar Administrativo",
+    tag: "Gerente Administrativo",
     description:
       `"Eu trabalho na área da administração, eu sempre procuro conhecer, entender e ajudar da melhor forma para que o serviço seja feito com a melhor qualidade."`
   },
