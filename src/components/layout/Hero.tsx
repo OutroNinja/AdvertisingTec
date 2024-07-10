@@ -197,7 +197,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="w-full flex flex-col items-center justify-center space-y-8">
-        <h1 className="font-bold text-4xl">Nossa Equipe</h1>
+        <h1 className="font-bold text-4xl">Fundadores</h1>
         <Carousel className="w-full max-w-lg">
           <CarouselContent>
             {team.map((item, index) => (
